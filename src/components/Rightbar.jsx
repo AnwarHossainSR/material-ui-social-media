@@ -58,7 +58,7 @@ const Rightbar = () => {
         <Typography variant="h6" fontWeight={100} mt={2} mb={2}>
           Latest Photos
         </Typography>
-        
+
         <ImageList cols={3} rowHeight={100} gap={5}>
           <ImageListItem>
             <img
@@ -79,7 +79,7 @@ const Rightbar = () => {
             />
           </ImageListItem>
         </ImageList>
-         
+
         <Typography variant="h6" fontWeight={100} mt={2}>
           Latest Conversations
         </Typography>
@@ -154,7 +154,7 @@ const Rightbar = () => {
               }
             />
           </ListItem>
-        </List> 
+        </List>
       </Box>
     </Box>
   );
