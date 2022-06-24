@@ -1,4 +1,12 @@
 import {
+  Add as AddIcon,
+  DateRange,
+  EmojiEmotions,
+  Image,
+  PersonAdd,
+  VideoCameraBack,
+} from "@mui/icons-material";
+import {
   Avatar,
   Button,
   ButtonGroup,
@@ -10,16 +18,8 @@ import {
   Tooltip,
   Typography,
 } from "@mui/material";
-import React, { useState } from "react";
-import {
-  Add as AddIcon,
-  DateRange,
-  EmojiEmotions,
-  Image,
-  PersonAdd,
-  VideoCameraBack,
-} from "@mui/icons-material";
 import { Box } from "@mui/system";
+import { useState } from "react";
 
 const SytledModal = styled(Modal)({
   display: "flex",
